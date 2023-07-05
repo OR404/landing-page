@@ -100,5 +100,37 @@ h2 {
     text-shadow: 1px 1px 1px;
 }
 
+.image-and-text>img {
+    display: flex;
+    height: 240px;
+    width:240px;
+    border-radius: 8px;
+    border: 5px solid #3882F6 ;
+
+}
+
+.image-and-text {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    
+}
+
+.image-and-text>p {
+    width: 250px;
+    text-align: center;
+    color:#1F2937;
+    font-weight: 600;
+}
+
+.destinations-images {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    margin-top:45px;
+}
+
+
+
 
 
