@@ -112,12 +112,15 @@ h2 {
 .image-and-text {
     display: flex;
     flex-direction: column;
+    min-width: 125px;
+    margin: 0 30px;
     flex-shrink: 1;
     
 }
 
 .image-and-text>p {
     width: 250px;
+    min-width: 50px;
     text-align: center;
     color:#1F2937;
     font-weight: 600;
