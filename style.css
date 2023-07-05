@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'roboto' , 'Times New Roman', Times, serif;
+}
+
+.logo-container {
+    display: flex;
+    margin-left: 45px;
+
+}
+
+.logo-container>img {
+    height: 50px;
+    width: 130px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-links , .top-links>a {
+    display: flex;
+    flex-shrink: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    gap:20px;
+
+}
+
+
+
