@@ -4,15 +4,16 @@
     box-sizing: border-box;
 }
 
-body {
+body  {
     font-family: 'roboto' , 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 }
 
-  .darker-part {
+  .darker-part  {
     color: white;
     background-color: #1F2937;
+    
 }
 
 .logo-container {
@@ -101,11 +102,12 @@ h2 {
 }
 
 .image-and-text>img {
-    display: flex;
     height: 240px;
     width:240px;
+    min-width: 100px;
     border-radius: 8px;
     border: 5px solid #3882F6 ;
+    object-fit: cover;
 
 }
 
@@ -114,7 +116,6 @@ h2 {
     flex-direction: column;
     min-width: 125px;
     margin: 0 30px;
-    flex-shrink: 1;
     
 }
 
@@ -129,9 +130,36 @@ h2 {
 .destinations-images {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 65px;
     margin-top:45px;
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.quote {
+    flex-shrink: 1;
+    font-size: 28px;
+    font-style: italic;
+    color: #1F2937;
+
+}
+
+.quote-author {
+    margin-left:auto;
+    font-weight: bold;
+
+}
+
+
+
+
+
 
 
 
