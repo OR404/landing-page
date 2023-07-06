@@ -140,6 +140,7 @@ h2 {
     flex-direction: column;
     max-width: 700px;
     margin: 0 auto;
+    margin-top:140px ;
 }
 
 .quote {
@@ -152,8 +153,36 @@ h2 {
 
 .quote-author {
     margin-left:auto;
-    font-weight: bold;
+    font-weight: 1000;
 
+}
+
+.pop-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    gap: 55px;
+    max-width:850px;
+    margin:55px auto;
+    padding:20px 0;
+    border-radius: 8px;
+}
+
+.pop-text {
+    color: white;
+    flex-shrink: 1;
+}
+
+.pop-text>.bolder {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pop-container>.button>button {
+    border: 2px solid white;
+    font-weight: 900;
+    margin-right: 15px;
 }
 
 
